@@ -17,7 +17,7 @@ console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds
    
  
 });
-var prefix = $
+var prefix = "-"
 LOka.on("message", message => {
   if(!message.content.startsWith(prefix)) return;;
   let args = message.content.split(" ").slice(1);
@@ -478,4 +478,4 @@ LOka.on('guildMemberAdd', member => {
  
  
  
-LOka.login("NjAxMzkxNTIyODkzNjYwMTg0.XTBnjg.yzaDpTX9sjiSt8ofQ1q3rFd3xts")
+LOka.login("NTUzMjAzMTExMjM4NTY1ODg4.D2KqtQ.R7oI7UTWqrD7PtuexVPnfd4Iegc")
